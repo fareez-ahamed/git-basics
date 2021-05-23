@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <feature.h>
 
 void main() {
     printf("Hello World");
@@ -7,4 +8,5 @@ void main() {
 
 void startProgram() {
     printf("Starting");
+    feature01();
 }
